@@ -148,7 +148,7 @@ class News:
         '''
 
         # 업종별 코드 로드 
-        codes_list = pd.read_csv('C:/Users/user/OneDrive/바탕 화면/CODE/AIQuant/Crawling/DATA/code_by_Sector.csv', encoding = 'cp949')     
+        codes_list = pd.read_csv('C:/Users/user/OneDrive/바탕 화면/CODE/AIQuant/DATA/code_by_Sector.csv', encoding = 'cp949')     
 
         # NaN 데이터 삭제                          
         codes_list = codes_list.dropna()

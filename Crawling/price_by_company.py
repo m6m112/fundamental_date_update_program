@@ -22,7 +22,7 @@ class Price:
         stock_price = stock_price.reset_index(drop = True)
 
         # 전일비 값을 구하여 라벨링 
-        for i in range(1,len(stock_price['close'])-1):    
+        for i in range(0,len(stock_price['close'])-1):    
             diff = (stock_price['close'][i] - stock_price['close'][i+1])
             if (diff > 0) : stock_price['label'][i] = 1
             elif diff == 0 : stock_price['label'][i] = 0
@@ -78,7 +78,7 @@ class Price:
         '''
 
         # 업종별 코드 로드 
-        codes_list = pd.read_csv('C:/Users/user/OneDrive/바탕 화면/CODE/AIQuant/Crawling/DATA/code_by_Sector.csv', encoding = 'cp949')     
+        codes_list = pd.read_csv('C:/Users/user/OneDrive/바탕 화면/CODE/AIQuant/DATA/code_by_Sector.csv', encoding = 'cp949')     
 
         # NaN 데이터 삭제                          
         codes_list = codes_list.dropna()
