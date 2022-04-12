@@ -1,7 +1,6 @@
-# AIQuant
-[ 종목 추천 모델 ] 뉴스 키워드 및 감성 분석을 통한 종목 추천 모델 고안
+# AIQuant : 기업 재무 데이터 활용 방안 모색 
 
-config.json 파일을 생성하여 다음을 추가하여 주세요.
-{
-	"crtfc_key": "Type your KEY",
-}
+> python, opendart api 
+
+config.json 파일을 생성하여 다음을 추가하여 주세요: </br>
+{ </br> "crtfc_key": "Type your KEY" </br> }
