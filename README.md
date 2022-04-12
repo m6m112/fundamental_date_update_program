@@ -3,4 +3,4 @@
 > python, opendart api 
 
 config.json 파일을 생성하여 다음을 추가하여 주세요: </br>
-{ </br> "crtfc_key": "Type your KEY" </br> }
+{ "crtfc_key": "Type your KEY" }
