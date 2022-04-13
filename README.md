@@ -1,4 +1,4 @@
-# AIQuant : 기업 재무 데이터 활용 방안 모색 
+# Opendart API, python : 기업 재무정보 수집 자동화 프로그램 
 
 > python, opendart api 
 
